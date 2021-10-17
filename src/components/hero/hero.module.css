@@ -1,0 +1,25 @@
+@value structure: '../../css-vars/structure.module.css';
+@value details: '../../css-vars/details.module.css';
+@value grid_max_width, header_height, hero_height from structure;
+@value radius from details;
+
+.container {
+  border-radius: radius;
+  height: hero_height;
+  margin: auto;
+  max-width: grid_max_width;
+  overflow: hidden;
+}
+
+.image {
+  height: auto;
+  margin-top: calc(hero_height * -1);
+  width: 100%;
+}
+
+.tint {
+  background: #da750d;
+  height: hero_height;
+  opacity: 0.8;
+  width: 100%;
+}

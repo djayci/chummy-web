@@ -1,0 +1,8 @@
+@value structure: '../src/css-vars/structure.module.css';
+@value grid_max_width from structure;
+
+.catalog {
+  max-width: grid_max_width;
+  margin: auto;
+  margin-top: 1.5rem;
+}

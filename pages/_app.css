@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Inter', 'Roboto Slab', 'Rubik', 'Ubuntu', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-feature-settings: 'case' 1, 'rlig' 1, 'calt' 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

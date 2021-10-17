@@ -1,0 +1,9 @@
+.profile_picture {
+    height: auto;
+    transition: transform 0.4s cubic-bezier(0.17, 0.67, 0.13, 1.02) 0s;
+    width: 100%;
+}
+  
+.profile_picture:hover {
+    transform: scale(1.1);
+}
